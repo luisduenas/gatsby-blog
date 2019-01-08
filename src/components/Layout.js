@@ -10,6 +10,7 @@ class Layout extends React.Component {
     let header
 
     if (location.pathname === rootPath) {
+      // home
       header = (
         <h1
           style={{
@@ -31,6 +32,7 @@ class Layout extends React.Component {
         </h1>
       )
     } else {
+      // blog post
       header = (
         <h3
           style={{

@@ -1,9 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
-
 import { rhythm } from '../utils/typography'
-import { clearInterval } from 'timers';
 
 function Bio() {
   return (
@@ -31,7 +29,7 @@ function Bio() {
             <p style={{
               marginTop:10
              }}>
-              by <strong>{author}</strong>.
+              Blog made by <strong>{author}</strong>.
               <a href={`https://github.com/${social.github}`}>
                 Find me in Github.
               </a>

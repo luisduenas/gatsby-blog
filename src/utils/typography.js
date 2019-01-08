@@ -1,13 +1,11 @@
 import Typography from 'typography'
 
 const typography = new Typography({
-  baseFontSize: "18px",
+  baseFontSize: "20px",
   baseLineHeight: 1.666,
   headerFontFamily: [
     "Trebuchet MS",
     "Helvetica",
-    "Arial",
-    "sans-serif",
   ],
   bodyFontFamily: [    
     "Trebuchet MS",

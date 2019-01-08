@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `waladev`,
+    title: `brainstorm.dev`,
     author: `Luis Duenas`,
     description: `A blog for....i don't know...anything?`,
     social: {
@@ -41,6 +41,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          `gatsby-remark-emoji`,
         ],
       },
     },
@@ -62,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
