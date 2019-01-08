@@ -29,10 +29,7 @@ function Bio() {
             <p style={{
               marginTop:10
              }}>
-              Blog made by <strong>{author}</strong>.
-              <a href={`https://github.com/${social.github}`}>
-                Find me in Github.
-              </a>
+               by <strong>{author}</strong>
             </p>
           </div>
         )

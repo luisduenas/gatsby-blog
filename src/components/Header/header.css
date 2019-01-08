@@ -1,0 +1,6 @@
+nav {
+    display: inline-block;
+}
+nav li{
+    float:left;
+}

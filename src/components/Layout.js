@@ -1,7 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
-
-import { rhythm, scale } from '../utils/typography'
+import React from 'react';
+import { Link } from 'gatsby';
+import './layout.css';
+import { rhythm, scale } from '../utils/typography';
+import Header from './Header/header';
 
 class Layout extends React.Component {
   render() {
@@ -55,18 +56,16 @@ class Layout extends React.Component {
     return (
       <div
         style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
+          margin:`auto`,
+          maxWidth: rhythm(28),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+      {/* <Header/> */}
         {header}
         {children}
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer className="main-footer">
+        Made by brainstorm.dev © {new Date().getFullYear()}
         </footer>
       </div>
     )

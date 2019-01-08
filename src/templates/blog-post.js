@@ -1,10 +1,9 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
-import SEO from '../components/seo'
-import { rhythm, scale } from '../utils/typography'
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import './blog-post.css';
+import Layout from '../components/Layout';
+import SEO from '../components/seo';
+import { rhythm, scale } from '../utils/typography';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -15,13 +14,14 @@ class BlogPostTemplate extends React.Component {
     const postImage = post.frontmatter.image
     const postImageFooter = post.frontmatter.imgFooter
     const { previous, next } = this.props.pageContext
-    let image;
-    console.log(postImage);
+  
     if(postImage != null){
-        image =  <div>
-          <img src={postImage}/>
+      var image =  <div>
+          <img 
+          src={postImage}
+          className="img-post"
+          />
           <p style={{
-            marginTop: rhythm(-1),
             textAlign: 'center',
             fontStyle: `italic`,
             textDecoration: `underline`,
@@ -35,8 +35,8 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        {image}
         <h1>{post.frontmatter.title}</h1>
+        {image}
         <p
           style={{
             ...scale(-1 / 5),
