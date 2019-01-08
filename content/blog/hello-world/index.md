@@ -1,8 +1,8 @@
 ---
 image: "/img/computer-code.jpg"
-imgFooter: "blablabla"
+imgFooter: "'Anyone who has never made a mistake has never tried anything new' - Albert Einstein"
 title: Hello World
-date: '2019-01-08T08:43:03.284Z'
+date: '2019-01-08'
 creator: 'Luis Duenas'
 ---
 
