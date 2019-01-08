@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `brainstorm.dev`,
     author: `Luis Duenas`,
+    siteUrl:'https://github.com/luisduenas/gatsby-blog',
     description: `A blog for....i don't know...anything?`,
     social: {
       github: `luisduenas`,
