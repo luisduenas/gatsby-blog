@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import './layout.css';
 import { rhythm, scale } from '../utils/typography';
 import Header from './Header/header';
-
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props

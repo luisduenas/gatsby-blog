@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import './blog-post.css';
 import Layout from '../components/Layout';
+import Comments from '../components/comments'
 import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
 
@@ -63,6 +64,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+        <Comments/>
         <Link
             style={{
               boxShadow: `none`,
