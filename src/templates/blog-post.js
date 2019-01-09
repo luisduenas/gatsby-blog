@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import './blog-post.css';
 import Layout from '../components/Layout';
 import Comments from '../components/comments'
 import SEO from '../components/seo';
@@ -9,6 +8,7 @@ import { rhythm, scale } from '../utils/typography';
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    console.log('blog-post: ' + post)
     const postAuthor = post.frontmatter.creator
     const postDate = post.frontmatter.date
     const siteTitle = this.props.data.site.siteMetadata.title

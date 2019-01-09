@@ -42,7 +42,7 @@ Comments.propTypes = {
   commentsRepository: PropTypes.string.isRequired,
 };
 
-const query = graphql`
+const pageQuery = graphql`
   query CommentsRepositoryQuery {
     site {
       siteMetadata {
@@ -54,5 +54,5 @@ const query = graphql`
 `;
 
 export default () => (
-  <StaticQuery query={query} render={data => <Comments {...data.site.siteMetadata} />} />
+  <StaticQuery query={pageQuery} render={data => <Comments {...data.site.siteMetadata} />} />
 );
