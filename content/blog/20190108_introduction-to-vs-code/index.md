@@ -62,5 +62,5 @@ The extension operates in two modes - it can launch an instance of Chrome naviga
 - Ahmad Awais (vscode.pro)
 
 
-### Nostalgia
+### Nostalgia :violin:
 > Sublime Text Keymap and Settings Importer
