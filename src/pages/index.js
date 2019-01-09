@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import './index.css';
-import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 
@@ -17,20 +16,12 @@ class BlogIndex extends React.Component {
           title="brainstorm.dev"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        {/* <Bio /> */}
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug;
-          const image = node.frontmatter.image;
-          console.log(image);
           return (
                 <div key={node.fields.slug} className="blog-preview group">
-                  <div className="blog-preview-image">
-                    <Link to={node.fields.slug}>
-                      <img src={`${image}`}/>
-                    </Link>
-                  </div>
                   <div className="blog-preview-content">
-                  <h3>
+                    <h3>
                       <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                         {title}
                       </Link>

@@ -1,0 +1,21 @@
+html {
+    background: #ffa949;
+}
+
+body{
+    border-bottom: 10px solid #ffa949;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+
+}
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, .8);
+}
+a:link {
+    color: #ffa949;
+    text-decoration: none;
+}
+a:visited {
+    color: lightblue;
+}

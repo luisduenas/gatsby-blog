@@ -32,27 +32,7 @@ class Layout extends React.Component {
           </Link>
         </h1>
       )
-    } else {
-      // blog post
-      header = (
-        <h3
-          style={{
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
-    }
+    } 
     return (
       <div
         style={{
@@ -61,7 +41,7 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-      {/* <Header/> */}
+      <Header/>
         {header}
         {children}
         <footer className="main-footer">
