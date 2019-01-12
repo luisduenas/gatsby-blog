@@ -66,11 +66,7 @@ class BlogPostTemplate extends React.Component {
         />
         <Comments/>
         <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
+            className="hover"
             to={`/`}
           >
             Return to homepage

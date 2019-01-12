@@ -34,9 +34,6 @@ Well, enought advertising, let's get to the point.
 - All the extensions you can download!
 
 
-
-
-
 **Extensions, extensions, extensions!!** :raised_hands:
 
 
@@ -96,6 +93,8 @@ If you're a web developer, this extension will make your life a lot easier, forg
 
 [You can find more info here](URL "Official Repository")
 
+Here are listed more usefull extensions that i recently started to use, maybe in another later post i can tell you more about them. 
+
 ## Other util extensions
 - Markdown PDF: 
     - Export your markdown to pdf, html, png or jpeg  with a simple right click.
@@ -106,8 +105,9 @@ If you're a web developer, this extension will make your life a lot easier, forg
 - Import Cost
 - highlight-matching-tag
 
+Well, enought of extensions, let's talk about common commands.
 
-[You can find more info here](URL "Official Repository")
+## Basic Editing
 
 
 

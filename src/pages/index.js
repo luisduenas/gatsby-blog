@@ -18,18 +18,19 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug;
           return (
-                <div key={node.fields.slug} className="blog-preview group">
+            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+            <div key={node.fields.slug} className="blog-preview group hover">
                   <div className="blog-preview-content">
                     <h3>
-                      <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                         {title}
-                      </Link>
                     </h3>
                     <small>Published on {node.frontmatter.date}</small>
                     <small> by <strong>{node.frontmatter.creator}</strong></small>
                     <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                   </div>
                 </div>
+                </Link>
+
           )
         })}
       </Layout>

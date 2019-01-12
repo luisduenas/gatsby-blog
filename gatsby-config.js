@@ -8,7 +8,7 @@ module.exports = {
       github: `luisduenas`,
     },
     commentsRepository: 'luisduenas/blog-comments-tracker',
-    commentsTheme: 'github-light'//github-dark
+    commentsTheme: 'github-light'//github-dark //github-light
   },
   plugins: [
     {

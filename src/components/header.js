@@ -1,7 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import './header.css';
-// import GithubIcon from 'react-icons/lib/go/mark-github'
 import { FaGithub } from 'react-icons/fa'
 
 
@@ -49,20 +47,17 @@ class Header extends React.Component {
               {siteTitle}
             </Link>
           <nav
-            className={'nav active'}
-            aria-hidden={false}
+            className={'nav hover'}
           >
             <Link
-              to={'/'}
-              activeStyle={{ backgroundColor: '#f5f5f5' }}
-              
+              to={'/'}              
             >
               Home
             </Link>
           </nav>
 
           <a
-            className="github"
+            className="github hover"
             href="https://github.com/luisduenas"
             target="_blank"
             rel="noopener noreferer"
