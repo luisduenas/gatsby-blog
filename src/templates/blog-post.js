@@ -65,12 +65,6 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Comments/>
-        <Link
-            className="hover"
-            to={`/`}
-          >
-            Return to homepage
-          </Link>
         
 
         <ul

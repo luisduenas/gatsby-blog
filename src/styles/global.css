@@ -7,7 +7,8 @@ body,
 .header {
     background: rgb(255, 255, 255);
     /* background: rgb(61, 60, 60); */
-    font-family: 'Segoe UI';
+    /* font-family: 'Segoe UI'; */
+    font-family: "Roboto Mono", monospace;
 }
 
 body,

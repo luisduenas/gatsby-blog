@@ -4,12 +4,12 @@ const typography = new Typography({
   baseFontSize: "20px",
   baseLineHeight: 1.666,
   headerFontFamily: [
-    "Trebuchet MS",
-    "Helvetica",
+    "Roboto Mono",
+    "monospace",
   ],
   bodyFontFamily: [    
-    "Trebuchet MS",
-    "Helvetica",
+    "Roboto Mono",
+    "monospace",
   ],
 })
 
