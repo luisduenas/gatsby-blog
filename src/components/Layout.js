@@ -43,7 +43,7 @@ class Layout extends React.Component {
       <Header/>
         {header}
         {children}
-        {/* <RecentPosts/> */}
+        <RecentPosts/>
         <footer className="main-footer">
         Made by brainstorm.dev © {new Date().getFullYear()}
         </footer>

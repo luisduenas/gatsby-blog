@@ -8,7 +8,13 @@ class RecentPosts extends React.Component {
         <StaticQuery
             query={pageQuery}
             render={data => {
-                    console.log('recent-post: ' + data)
+                <div>
+                    <input 
+                    type="text"
+                    placeholder="holi" />
+                </div>
+                    console.log('recent-post: ')
+                    console.log(data)
                 }
             }
             >
@@ -27,7 +33,7 @@ query {
         }
     }
     allMarkdownRemark(
-        limit: 1,
+        limit: 3,
         sort: { fields: [frontmatter___date], order: DESC }
         filter: {frontmatter:{ published:{ eq:true } } }) {
         edges {
