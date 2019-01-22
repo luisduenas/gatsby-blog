@@ -129,8 +129,14 @@ Well, that's all for this time, in the second part of this introduction i'm goin
 
 ## Learn more
 If you want to learn more, you can visit any of the links above: 
-- [WesBos](https://twitter.com/wesbos/status/907347014823923714?lang=en) (twitter): WesBos has a thread where many people post usefull tips to use in your setup.
-- [freeCodeCamp](https://www.freecodecamp.org/): The online web developers school for excelence, here you can find a lot of blog entries about VS Code (that's where i found most of the extensions that i use)
-- [Ahmad Awais](https://vscode.pro/) (vscode.pro): He has a full course about leveling up yous VS Code skills, downside is that you have to pay, but for productivity it's totally worth it!
+- **[WesBos](https://twitter.com/wesbos/status/907347014823923714?lang=en) (twitter)**
+
+    WesBos has a thread where many people post usefull tips to use in your setup.
+- **[freeCodeCamp](https://www.freecodecamp.org/)** 
+    
+    The online web developers school for excelence, here you can find a lot of blog entries about VS Code (that's where i found most of the extensions that i use)
+- **[Ahmad Awais](https://vscode.pro/) (vscode.pro)** 
+
+    He has a full course about leveling up yous VS Code skills, downside is that you have to pay, but for productivity it's totally worth it!
 
 
