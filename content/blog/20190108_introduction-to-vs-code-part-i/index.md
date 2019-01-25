@@ -1,6 +1,6 @@
 ---
 image: "/img/vscode.jpg"
-imgFooter: "'When debugging, novices insert corrective code; experts remove defective code.' - Richard Pattis"
+imgFooter: "'when debugging, novices insert corrective code; experts remove defective code.' - Richard Pattis"
 title: Intro to VS Code (Part I)
 date: '2019-01-09'
 creator: 'Luis Duenas'
@@ -8,7 +8,7 @@ published: true
 ---
 Hi everyone!
 
-In this post, i'm going to show you some of the extensions that i use in **vscode** that i find very usefull! :thumbsup:
+In this post, i'm going to show you some of the extensions that i use in **vscode** that i find very useful! :thumbsup:
 
 
 ### About VS Code
@@ -44,7 +44,7 @@ The extension operates in two modes - it can launch an instance of Chrome naviga
 <br>
 
 ## Bracket Pair Colorizer
-Another very usefull plugin, this extension allows matching brackets to be identified with colours.:rainbow: 
+Another very useful plugin, this extension allows matching brackets to be identified with colours.:rainbow: 
 The user can define which characters to match, and which colours to use.
 
 ![Bracket Pair Colorizer](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png "Bracket Pair Colorizer")
@@ -131,7 +131,7 @@ Well, that's all for this time, in the second part of this introduction i'm goin
 If you want to learn more, you can visit any of the links above: 
 - **[WesBos](https://twitter.com/wesbos/status/907347014823923714?lang=en) (twitter)**
 
-    WesBos has a thread where many people post usefull tips to use in your setup.
+    WesBos has a thread where many people post useful tips to use in your setup.
 - **[freeCodeCamp](https://www.freecodecamp.org/)** 
     
     The online web developers school for excelence, here you can find a lot of blog entries about VS Code (that's where i found most of the extensions that i use)

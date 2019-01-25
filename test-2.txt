@@ -1,0 +1,44 @@
++--------------------------+-----------------------+
+| TABLE_NAME               | COLUMN_NAME           |
++--------------------------+-----------------------+
+| affiliates               | email                 |
+| couples_data             | groom_email_address   |
+| couples_data             | bride_email_address   |
+| couples_data             | hw_promo_email        |
+| couples_data             | package_promo_email   |
+| couples_data             | legal_doc_email       |
+| couples_data             | congratulations_email |
+| destinations             | notification_email    |
+| destinations             | restricted_time_email |
+| email_recipients         | emailrecipient_id     |
+| email_recipients         | email_code            |
+| email_text               | emailtext_id          |
+| email_text               | email_code            |
+| email_text               | email_subject         |
+| email_text               | email_text            |
+| guest_list               | email_address         |
+| j_sched2info             | doc_email             |
+| order_lineitems          | misc_vendor_email     |
+| payments                 | email_address         |
+| payments_deleted         | email_address         |
+| product_items            | confirmation_email    |
+| question_emails          | questionemail_id      |
+| question_emails          | your_email            |
+| question_emails_admin    | questionemail_id      |
+| question_emails_admin    | your_email            |
+| restricted_time_email    | rte_email             |
+| temp_load_boug           | bride_email           |
+| temp_load_boug           | groom_email           |
+| temp_load_boug           | ta_email              |
+| temp_load_breezes        | email_address         |
+| temp_load_couples        | groom_email           |
+| temp_load_couples        | bride_email           |
+| temp_load_couples_cancel | groom_email           |
+| temp_load_couples_cancel | bride_email           |
+| temp_load_couples_prev   | groom_email           |
+| temp_load_couples_prev   | bride_email           |
+| temp_ta_data             | email_address         |
+| travel_agents            | email_address         |
+| travelagent_data         | email_address         |
+| vendor_users             | email                 |
++--------------------------+-----------------------+

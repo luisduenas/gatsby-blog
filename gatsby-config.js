@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `brainstorm.dev`,
+    title: `Luis Duenas`,
     author: `Luis Duenas`,
     siteUrl:'https://github.com/luisduenas/gatsby-blog',
     description: `A blog for....i don't know...anything?`,
@@ -28,6 +28,15 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        // CommonMark mode (default: true)
+        commonmark: true,
+        // Footnotes mode (default: true)
+        footnotes: true,
+        // Pedantic mode (default: true)
+        pedantic: true,
+        // GitHub Flavored Markdown mode (default: true)
+        gfm: true,
+        // Plugins configs
         plugins: [
           {
             resolve: `gatsby-remark-images`,

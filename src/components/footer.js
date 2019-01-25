@@ -4,7 +4,7 @@ class Footer extends Component {
   render(){
     return(
       <footer className="main-footer">
-        Made by brainstorm.dev © 2018 - {new Date().getFullYear()}
+        Made by Luis Duenas © 2018 - {new Date().getFullYear()}
       </footer>
     )
   }
