@@ -46,7 +46,7 @@ class Layout extends React.Component {
       <Header/>
         {header}
         {children}
-        <RecentPosts/>
+        {/* <RecentPosts/> */}
         <Footer/>
       </div>
     )
